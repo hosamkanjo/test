@@ -27,6 +27,7 @@ class _HomeworkPageState extends State<HomeworkPage> {
                 return ListTile(
                   hoverColor: Colors.white,
                   iconColor: Colors.amber,
+                  focusColor: Colors.black,
                   title: Text(result[index]['title']),
                   subtitle: Column(
                     children: [
