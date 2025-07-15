@@ -25,6 +25,9 @@ class _HomeworkPageState extends State<HomeworkPage> {
               itemCount: result.length,
               itemBuilder: (context, index) {
                 return ListTile(
+            
+                 
+                  title: Text(result[index]['title']),
                   subtitle: Column(
                     children: [
                       Text(result[index]['description']),
